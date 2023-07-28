@@ -11,7 +11,6 @@ from basicsr.archs.swinir_arch import SwinIR
 
 
 def main():
-    parser = argparse.ArgumentParser()
     parser.add_argument('--input', type=str, default='datasets/Set5/LRbicx4', help='input test image folder')
     parser.add_argument('--output', type=str, default='results/SwinIR/Set5', help='output folder')
     parser.add_argument(
